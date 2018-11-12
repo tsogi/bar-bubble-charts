@@ -1,0 +1,26 @@
+.bar {
+	fill:grey;
+	cursor: pointer;
+}
+
+.bar:hover {
+	fill:#f96b6b;
+}
+
+svg {
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.chart {
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+}
+
+.chartType {
+	margin-bottom: 10px;
+}
