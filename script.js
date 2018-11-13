@@ -71,7 +71,7 @@
 			window.count == window.years.length - 1 ? window.count = 0 : window.count++;
 		})
 		.selectAll("option")
-		.data([{ name: "Bar Chart", value: "bar" }, { name: "Scatter Plot", value: "plot" }])
+		.data([{ name: "Bar Chart", value: "bar" }, { name: "Bubble Chart", value: "plot" }])
 		.enter()
 		.append("option")
 		.attr("value", function(d) { return d.value })
